@@ -35,6 +35,7 @@ python test.py  --content_dir input/content/ --style_dir input/style/    --outpu
 ### Training  
 Style dataset is WikiArt collected from [WIKIART](https://www.wikiart.org/)  <br>  
 content dataset is COCO2014  <br>  
+data_ wikiart [WIKIART](https://drive.google.com/drive/folders/1aLLE6z01zTnHQEl5K7vHT22Rc1o6WjAm?usp=sharing)
 ```
 CUDA_VISIBLE_DEVICES=1 python train_modified.py --style_dir /hdd/lms20031/main/wikiart --content_dir /hdd/dataset/coco_nano/train --save_dir models/ --batch_size 8
 ```
