@@ -36,7 +36,7 @@ python test.py  --content_dir input/content/ --style_dir input/style/    --outpu
 Style dataset is WikiArt collected from [WIKIART](https://www.wikiart.org/)  <br>  
 content dataset is COCO2014  <br>  
 ```
-python train.py --style_dir ../../datasets/Images/ --content_dir ../../datasets/train2014 --save_dir models/ --batch_size 8
+CUDA_VISIBLE_DEVICES=1 python train_modified.py --style_dir /hdd/lms20031/main/wikiart --content_dir /hdd/dataset/coco_nano/train --save_dir models/ --batch_size 8
 ```
 ### Reference
 If you find our work useful in your research, please cite our paper using the following BibTeX entry ~ Thank you ^ . ^. Paper Link [pdf](https://arxiv.org/abs/2105.14576)<br> 
